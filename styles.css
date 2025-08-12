@@ -44,7 +44,7 @@
    right: 0;
 top:20%;
     left: 75.9%;
-    margin: 9.2px;
+    margin: 5px; // formerly 8
 }
 
 .leftsec{
@@ -100,7 +100,7 @@ visibility: hidden;
    right: 0;
 top:16.1%;
     left: 75.9%;
-    margin: 5px; // formerly 8
+    margin: 8px; 
 }
 
 .navigation{
@@ -153,3 +153,4 @@ visibility: hidden;
     left: 0;}
 
 }
+
