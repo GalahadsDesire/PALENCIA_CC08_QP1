@@ -100,7 +100,7 @@ visibility: hidden;
    right: 0;
 top:16.1%;
     left: 75.9%;
-    margin: 8px;
+    margin: 5px; // formerly 8
 }
 
 .navigation{
@@ -151,4 +151,5 @@ visibility: hidden;
     height: 16%;
     position:absolute;
     left: 0;}
+
 }
