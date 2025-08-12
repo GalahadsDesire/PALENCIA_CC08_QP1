@@ -1,0 +1,154 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+
+    border: 1px solid black;
+
+   float: center;
+   width: auto;
+   height:90px;
+   padding:5px;
+   margin: 3px;
+
+   text-align: center;
+}
+.navigation{
+
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+   
+    text-align: center;
+}
+
+.mainarticle{
+
+    border: 1px solid black;
+ width:75%;
+ height:90vh;
+    text-align: left;
+    margin: 7px;
+
+}
+
+.asideright{
+
+    border: 1px solid black;
+    width: 20%;
+    height: 90vh;
+   position:absolute;
+   right: 0;
+top:20%;
+    left: 75.9%;
+    margin: 9.2px;
+}
+
+.leftsec{
+
+    border: 1px solid black;
+    width: 48.6%;
+    height: 16%;
+    position:absolute;
+    left: 0;}
+
+    .rightsec{
+ border: 1px solid black;
+  width: 48.6%;
+    height: 16%;
+     position:absolute;
+    right: 0;
+    margin: 0;
+    }
+
+.footerlast{
+
+    border: 1px solid black;
+    width: 100%;
+    height: 16%;
+    position: absolute;
+    bottom: -50%;
+    margin: -4px;
+    padding: 10px;
+    
+    
+}
+
+@media (max-width: 600px) {
+   .title{
+
+    border: 1px solid black;
+
+   float: center;
+   width: auto;
+   height:90px;
+   padding:5px;
+   margin: 10px;
+
+   text-align: center;
+}
+
+.asideright{
+visibility: hidden;
+    border: 1px solid black;
+    width: 20%;
+    height: 90vh;
+   position:absolute;
+   right: 0;
+top:16.1%;
+    left: 75.9%;
+    margin: 8px;
+}
+
+.navigation{
+
+    border: 1px solid black;
+    width: 99%;
+    height: 40px;
+   
+    text-align: center;
+}
+
+.mainarticle{
+
+    border: 1px solid black;
+ width:98%;
+ height:90vh; // change to 90vh as contingency
+    text-align: left;
+    margin: 7px;
+
+}
+
+.footerlast{
+padding:3px;
+    border: 1px solid black;
+   width: 100%;
+    height: 16%;
+    position: absolute;
+    bottom: -33%;
+
+    margin: -4px;
+
+    
+    
+}
+
+  .rightsec{
+ border: 1px solid black;
+  width: 100%;
+    height: 16%;
+     position:absolute;
+    right: 0;
+    margin: 2px;
+    }
+.leftsec{
+visibility: hidden;
+    border: 1px solid black;
+    width: 48.6%;
+    height: 16%;
+    position:absolute;
+    left: 0;}
+}
